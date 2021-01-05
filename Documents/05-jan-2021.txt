@@ -1,0 +1,26 @@
+Today i will practise some git command i.e.
+
+1)git push: Which is used for pushing the file and folder into the Repositary.
+2)git commit: It will commit the file or folder which is not commited and if we want to pass some message with it we use -m syntax with it and after that in the double quote we write the message
+	Synatx:- git commit -m "message".
+3)git add filename: By using this syntax we add the untracked file.
+4)gti status: By using this syntax we track the file and the file which is untracked we add that file using this("git add filename") syntax.
+5)git clone: By using this syntax we clone the project in our local machine where we want.
+6)git fetch: By using this syntax we get the updated deatils of repo.
+7)git merge: By using this syntax we merge the one brach into the main branch.
+
+
+Apart from that i have also learn that how to create a folder using the command promt using "mkdir" syntax adn how to move form one folder to anoter folder using the command promt.
+
+While doing this thing i get stuck or get error in one place i.e. copy the SSH key from command promt so to resolve that i run that syntax in the GIT BASH promt so in that it will properly run.
+
+Today Chirag sir also assign me one responsibilty to solve a query of one Trainee so i also solve and resolver his query.
+
+And also Chirag sir assign one work to make repository with the company name an in that we have to make 3 folders.
+1)Documents.
+2)Coding.
+3)Practice.
+
+So today, I completed this asssignment also.
+
+And at 3 pm we have an meeting also in that we question to the chirag sir regarding to the git syntax and related to it.
