@@ -1,0 +1,26 @@
+->See the difference between git and Github and get to know that gti is a version control system which is developed to co -ordinate with the other programmer.
+  Whereas Github is hosting service which is web based and this provide us features of distributed version control and moreover the git functionality
+
+-> SSH Key : In this i learn that the two key which is generate i.e.
+	1) id_rsa : this is the private key.
+	2) id_rsa.pub : This is the public key
+  Whenever we want to share a key always share a public key not a private key.
+
+-> I also see some of the git terminology.
+
+-> Command:
+	1) git init : By default on our computer not any directory is a Git Repositary so to make any directory to git repositary we use this commmand.
+	2) git log : By using this command we get the information of all commit command.
+	3) git diff : By using this command we get to know the differnce between the changes between the modification or updation in the code.
+	4) git pull : Using this command we can fetch and merge the changes from the server to our local machine.
+	5) git revert : using this command we revert the excute by providing the commit id with it.With this command i also learn the use of HEAD prefix which is used with it.
+
+-> JavaScript 
+	Inline Script: The code is write inside the file where the desiging code is there.
+	External script: In this we make a seprate javascript file with the extension ".js" and include that file into the designing file
+
+-> command:
+	1)console.log : console.log() is a statement that is used to print output on the screen
+
+-> Solve query also some of my friend related to git.
+
