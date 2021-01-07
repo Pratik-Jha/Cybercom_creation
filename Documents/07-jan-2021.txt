@@ -1,0 +1,18 @@
+Today i learn more about git command i.e.
+
+-> Git Fork : When we use this command we make a rough copy of repository.
+-> Git Rebase : It is used to apply commit in the final commit.
+-> Dive into more details of the git command i.e
+	=>git commit
+	=>git log
+	=>git clone
+	=>git add
+	=>git reset
+
+-> In todays meeting we solve more queries and todays meeting is the last  meeting related to git and github.
+
+-> This 3 day session of git by Chirag sir was quite good and learn many intresting thing from him.
+
+-> Else learn more about Javascript such as variable, Data type.
+
+-> Also dissuss about the project defination with the priyanka mam.
