@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Declare all the variable which we use.
+   var JohnWg, JohnHt, MarkWg, MarkHt, JohnBMI, MarkBMI, res
+
+   // taking the input of john weight and height.
+   JohnWg = prompt("Enter the John Weight(in kg)"); 
+   JohnHt = prompt("Enter the John Height(in meter)");
+
+   // taking the input of Mark weight and height.
+   MarkWg = prompt("Enter the Mark Weight(in kg)");
+   MarkHt = prompt("Enter the Mark height(in meter)");
+
+
+   JohnBMI = JohnWg/(JohnHt*JohnHt) // Calculating John BMI
+   MarkBMI = MarkWg/(MarkHt*MarkHt) // Calculating Mark BMI
+
+   // getting the result and print it on the console.
+   res = MarkBMI > JohnBMI
+   console.log("John BMI value "+JohnBMI)
+   console.log("Mark BMI value "+MarkBMI)
+   console.log("Is Mark's BMI higher than John's? "+res)
+
+</script>
+</html>
