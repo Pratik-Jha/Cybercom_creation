@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -> Today i learn some basic about javascript which i mention below that what i will learn today.
 
 	=> I learn that javascript is the lightweighted and follow OOPS concept.
@@ -21,4 +22,29 @@
 
 -> Apart from this today we have an meeting which is lead by Pritey mam in which we learn and see some basic about the HTML and their tags.
 
+=======
+-> Today i learn some basic about javascript which i mention below that what i will learn today.
+
+	=> I learn that javascript is the lightweighted and follow OOPS concept.
+
+	=> I learn about the type of js
+		1) Inline script : This is used inside the design page means the code inside the script tag is in the design page.
+		2) external script : In this we create a new js file and inside that we write the code and include it into the design page inside the script tag via "src" attribute.
+
+	=> I also see the use of "console.log()" whichh is used to print the value in the console.
+
+	=> Also see the uses of some more command i.e
+		1) alert : which is pop up at the top of the page and used to show some message.
+		2) prompt : This is also pop up at the top of the page and used to take input from the user.
+		3) typeof : Used to know the datatype of variable.
+
+	=> I also learn the datatype of js which is basically of 5 types.
+
+	=> Also learn about the basic operation and its precedence.
+
+	=> Also i learn that what is the use of var which is used to decalare the variable.
+
+-> Apart from this today we have an meeting which is lead by Pritey mam in which we learn and see some basic about the HTML and their tags.
+
+>>>>>>> e69d0970fddb2f162bc8ff5bbd481822ba40c07c
 -> Also do an assignment which is given to us.
