@@ -1,0 +1,20 @@
+-> Today I learn more about javascript which is given below that what i learn today.
+	=> If else condition.
+	=> If..else if..else condition.
+	=> Boolean logic : The < , >, etc how all this operator work i learn it.
+	=> Ternary operator : this is one line syntax which works like an if else condition.
+	=> Switch Statement.
+	=> Falsey and truthy value.
+	=> function : this is the on eof the main concept of OOP which tell us or teach us the reusability of code.
+	=> Array: This is used to define the multiple value in the single object and it can have also contain different datatype value in the single array.
+		and manay more operation which we can use in this i learn i.e.
+			1) push() : Used to push the value at the end of the array.
+			2) unshift() : Used to push the value at the begin or start of the array.
+			3) pop() : Used to remove the value at the end of the array.
+			4) shift() : Used to remove the value at the end of the array.
+			5) indexOf(value) : Used to get the position of the value.
+
+-> Apart from that in todays meeting we learn about the form and their used which is presented by pritey mam.
+-> And also i have some question related to JS which i ask and mam clear that topic.
+-> Completed the todays assignment which is uploaded in the coding folder. 
+-> Pritey mam also gave us some challenges whhich I also completed today.

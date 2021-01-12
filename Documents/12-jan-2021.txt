@@ -1,0 +1,13 @@
+->Today i learn more topics of JavaScript.When we run the js script code some backend process will work so let see some of them.
+	=> Parser: In this it check the code line by code by for syntax error and when the code is correct it generate the "Abstract Synatx Tree" data structure.
+	=> Hosting: This only work for function declaration not for function hosting.
+	=> Scoping: To create a scope in JS we can cerate it by using function only.
+	=> lexical scoping : In this the function is decalre inside the function and the child can use the parent variable.
+->This keyword: this points only at the globle object. It is also use for method call.
+->Also learn that how we can create object in the JS and see some of there properties also.
+->In todays meeting i learn about some html tags i.e.
+	=> Head tag.
+	=> Body tag.
+	=> noscript.
+-> Basic overview of CSS and SCSS.
+-> Also solve the challenges question which is given by mam.	
