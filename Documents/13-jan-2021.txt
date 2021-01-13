@@ -1,0 +1,24 @@
+-> Today i learn about some more topics in javascript i.e. .
+	1)looping: This concept is very usefull in javascript to iterate the same thing number of times.Their is many way to use loopin in java script.
+		-> For loop.
+		-> while loop.
+-> Also see the use of break and continue statement.
+-> See some basic concept of DOM(Document object Model) and DOM Manipulation.The use of DOM is to connect webpages to script like JS.
+-> See some of the methods of DOM i.e.
+	=> querySelector()
+	=> textContent()
+	=> innerHTML()
+	=> style()
+	=> addEventlistner()
+	=> getElementByID()
+->Also learn about the evnets and eventlistner.
+	=> Event : This is used to send the notification to teh code that something happened on the webpage.
+		e.g : clicking a button,resizing the window.
+	=> Event listner: When a function perform an action based on a certain event. It waits for a specific event to happen
+
+-> See the two maths function i.e. random() and floor().
+-> Solve the challenges and complete the assignment.
+-> In the meeting solve the query or question and learn some topics i.e.
+	=> PWA.
+	=> Transpiling and polyfiling.
+	=> Get to know about the localStorage and sessionStorage and use of this storage.
