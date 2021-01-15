@@ -1,0 +1,9 @@
+-> Today I learn about the object in the javaScript which i elabrote below.
+	-> In this i see the type of object i.e.
+		1) Primitive 
+		2) Non Primitive
+-> Also see about the construtor how to create cinstructor use of constructor.
+-> Also see the inheritance concept and prototype concept.
+-> Then see the Javascript video and complete the task which is gievn in that.
+-> Also see some more topics that object.create() and difference between primitive and object.
+-> Then at last attend the meeting and mam solve our query.
