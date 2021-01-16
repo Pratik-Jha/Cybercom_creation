@@ -1,0 +1,47 @@
+-> Today i learn and see more concept in javascript.
+	1) First class function: In this we create and function and in return we also return an fucntion as an object.
+		#Decalaring an first class function:
+			function functionname(arg){
+				if(arg === 'value'){
+					return function(name){
+						console.log(name+"statement");
+						}	
+					}
+				else{
+					return function(name){
+						console.log(name+"statement");
+						}		
+				}
+			}
+	-> to call this we have two ways: 
+		1) var obj = functionname('value');
+		   obj(name);
+		
+		2)functionname('value')(name);
+
+	2) Immediately Invoked Function Expression:
+		-> This also call as IIFE.
+		-> It helps us in data privacy.
+		#Declaration:
+			(function(){
+				var obj="value";
+				console.log(obj);
+			})();
+		-> In the end we use () this to call this anonymous function itself thats why it call immmediately invoked.
+	3) Closuer: This is a function having access to the parent scope even after the parent function has closed.
+		-> In the IIFE this closure play an important role.
+
+	4) Bind: This generally create an copy of the method and then call it. But to use the bind function firstly we have to create an two object and inside one of them 
+		 we have to create a method and then the bind function comes into affect.
+		-> let see how we can use bind function
+			var obj = obj1.present.bind(obj2,'value');
+			obj('value1');
+		Explanation : obj1 and obj2 is the two object which i disscussed above to create and obj is the object in which the function is store 
+			      which is created when the bind function call and use.Value and value1 is the argument which is used in the function.
+	5) call: This directly call the function without creating a copy of it works similar to bind the only differnce is this only that it don't create a copy of function.
+-> Then see some the the version difference in JavaScript i.e. ES5 & ES6.
+-> Also in the diference we focused on the let, const & var differnce let see in detail.
+	=> let is work similar to the var only differnce is "let" is block scope and "var" is function scope.
+	=> const is immuatable means the variable which we defined as const it can't be modify in further of the code.
+-> Also completed the assignment which is associated with this.
+-> While doing the assignment i also learn some more tags in html and some of the properties in css.
