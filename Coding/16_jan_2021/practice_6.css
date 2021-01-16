@@ -1,0 +1,66 @@
+/* icon class and design */
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 50%;
+    margin: 10px;
+}
+
+.icon {
+    padding: 10px;
+    color: grey;
+    min-width: 50px;
+    margin-left: 34%;
+    text-align: center;
+}
+/* input class and design */
+
+.input-field {
+    width: 60%;
+    padding: 10px;
+    margin-left: 70%;
+    text-indent: 30px;
+    border-radius: 4px;
+    border: 2px solid #aaa;
+}
+/* image class and design */
+
+.container {
+    position: realtive;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-block {
+    position: absolute;
+    left: 50%;
+    bottom: 73%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+/* button */
+button {
+    color: white;
+    transition: 0.25s;
+}
+
+.button:hover,
+.button:focus {
+    border-color: #aaa;
+    box-shadow: rgb(197, 21, 21);
+    color: rgb(197, 21, 21);
+}
+
+button {
+    background: blue;
+    text-decoration:white;
+    border: 2px solid;
+    font: inherit;
+    margin: 0.5em;
+    padding: 1em 2em;
+    border-radius: 100px;
+    width: 150px;
+}
