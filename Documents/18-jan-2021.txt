@@ -1,0 +1,34 @@
+-> Map Method : This method creates a new array with the results of calling a function for every array element and 
+		calls the provided function once for each element in an array, in order.
+-> Arrow Function: This introduced in ES6. By using this we can shorter the syntax.Let see an example.
+	eg: call()=>{ console.log('hello')};
+	=> In the example the brackets are optional we can write it as :- call() => console.log('hello') ;
+	
+	=> In this we can also pass multiple arguments and multiple line.
+	
+	=> Lexical and handling of this is also differ compare to regular function.
+
+#Destructuring
+-> It copy teh array items into seprate variables. 
+-> The array itself is not modified.
+	eg: let arr = ["John", "Smith"]
+            let [firstName, surname] = arr;
+	    console.log(firstName); // John
+	    console.log(surname);  // Smith
+	
+	->In the above example the array contain two values and we want to store it in different 
+	    key so with the help of destructuring we can do this as you see in the above example. 
+
+-> Also see some basic differnce of Array in ES5 and ES6.
+-> In ES5 if we want to access some value from the aaray the line of code will increase but in ES6 it is easy to find the value as well as index value in lesser line of code.
+	=> let ages=[12,21,13,10,5,8]
+
+		syntax: console.log(ages.findIndex(cur => cur>=18);
+		->In the above syntax we can find the index value of the element who satisfied the condition i.e. 
+		   cur>=18 and this all happen just because of arrow function and the special function provided by Array.
+
+		syntax: console.log(ages.find(cur => cur>=18);
+		->In the above syntax we can find the value of the element who satisfied the condition i.e. 
+		   cur>=18 and this all happen just because of arrow function and the special function provided by Array.
+-> Attend the meeting in which pritey mam ask some question which we answer and also discuss some of topics.
+-> Complete the today assignment and submitted it.
