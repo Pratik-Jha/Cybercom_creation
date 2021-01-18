@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice 7</title>
+    <link rel="stylesheet" href="practice_7.css">
+</head>
+
+<body>
+    <form method="post" action="Success.html">
+        <!-- The below tag draws a box around the related elements -->
+        <fieldset>
+            <!-- This tag is used to define a caption for the <fieldset> element -->
+            <legend><b>Your Address</b></legend>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="Fname" required /></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="Lname" required /></td>
+                </tr>
+                <tr>
+                    <td>Street</td>
+                    <td><input type="text" name="Street" required /></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="City" required /></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br /><br />
+        <!-- The below tag draws a box around the related elements -->
+        <fieldset>
+            <!-- This tag is used to define a caption for the <fieldset> element -->
+            <legend><b>Additional Details</b></legend>
+            <table>
+                <tr>
+                    <td>Biography</td>
+                    <td><textarea name="Biography"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td><input type="file" name="image" /></td>
+                </tr>
+                <tr>
+                    <td>Age Group</td>
+                    <td><input type="number" id="Age" plrequiredaceholder="0 to 9 Years" name="Age" min="1" max="9">
+                    </td>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br /><br />
+        <!-- The below tag draws a box around the related elements -->
+        <fieldset>
+            <!-- This tag is used to define a caption for the <fieldset> element -->
+            <legend><b>Interests</b></legend>
+            <table>
+                <tr>
+                    <td valign="top">Hobbies</td>
+                    <td>
+                        <select name="hobbies" id="Hobbies" multiple="multiple">
+                            <option value="Playing Soccer">Playing Soccer</option>
+                            <option value="Dancing">Dancing</option>
+                            <option value="Gardening">Gardening</option>
+                            <option value="Watching Movies">Watching Movies</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favourite Car?</td>
+                    <td>
+                        <select name="favourite-car" id="Favourite-car">
+                            <option value="Volvo">Volvo</option>
+                            <option value="Suzuki">Suzuki</option>
+                            <option value="Audi">Audi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favourite Public Transport?</td>
+                    <td>
+                        <select name="cars" id="Transport">
+                            <optgroup label="Ground">
+                                <option value="Train">Train</option>
+                                <option value="Bus">Bus</option>
+                            </optgroup>
+                            <optgroup label="Water">
+                                <option value="Steem">Steem</option>
+                                <option value="Boat">Boat</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <button type="submit" class="button submit" name="btn_submit" value="Submit">Submit</button>
+        <button type="reset" class="button reset" name="btn_reset" value="Reset">Reset</button>
+    </form>
+
+</body>
+</html>
