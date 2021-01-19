@@ -1,0 +1,26 @@
+# Precedence 
+	-> This determines the way in which operators are given priority amongst each other. An operator with higher precedence is evaluated before an operator of lower precedence.
+
+# Associativity 
+	-> This determines the way in which operators of the same precedence are evaluated.
+# Class
+	-> Firstly this is not an object its a templates which is used to encapsulate all the information or code in one place.
+	-> We can declare class by two ways
+		1) By using class keyword.
+		   class Square{
+  			constructor(length) {
+    				this.length = length;    				
+  			}
+		  }
+		
+		2) By using class expression:
+			let square =class {
+				constructor(length) {
+    				this.length = length;    				
+  				}
+			}
+	-> Constructor is the special method in a class which is used to creating and initializing an object created with a class and we 		can't create more then one constructor.
+	
+-> See the use of static method in class. when we use static method in class so it simply attached to the class not to the instance of the 	class.
+-> Also see how to apply inheritance in class we can apply by using the extends keyword.
+-> See the uses of "use strict" in javaScript.
