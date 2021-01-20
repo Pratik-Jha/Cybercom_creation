@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>HTML Form Practice 8</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="practice_8.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-horizontal" action="information.html">
+            <fieldset>
+                <legend style="padding-bottom: 10px;"><b>Personal Information</b></legend>
+                <div class="row form-group">
+                    <label for="txt_FirstName" class="col-sm-3 control-label">First Name:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="txt_FirstName" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_LastName" class="col-sm-3 control-label">Last Name:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="txt_LastName">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="dateOfBirth" class="col-sm-3 control-label">Date of Birth:</label>
+                    <div class="col-sm-2">
+                        <select id="drp_Month" class="form-control" style="font-weight: 500;" required>
+                            <option selected>Month</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <select id="drp_Day" class="form-control" required>
+                            <option selected>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <select id="drp_Year" class="form-control" required>
+                            <option selected>Year</option>
+                            <option>1980</option>
+                            <option>1981</option>
+                            <option>1982</option>
+                            <option>1983</option>
+                            <option>1984</option>
+                            <option>1985</option>
+                            <option>1986</option>
+                            <option>1987</option>
+                            <option>1988</option>
+                            <option>1989</option>
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                            <option>2006</option>
+                            <option>2007</option>
+                            <option>2008</option>
+                            <option>2009</option>
+                            <option>2010</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="gender" class="col-sm-3 control-label">Gender:</label>
+                    <div class="col-sm-6">
+                        <select id="drp_Gender" class="form-control" style="font-weight: 500;" required>
+                            <option selected>Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Transgender</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend><b>Account Information</b></legend>
+                <div class="row form-group">
+                    <label for="txt_Email" class="col-sm-3 control-label">Email:</label>
+                    <div class="col-sm-6">
+                        <input type="email" class="form-control" id="txt_Email" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_ReTypeEmail" class="col-sm-3 control-label">Re-type Email:</label>
+                    <div class="col-sm-6">
+                        <input type="email" class="form-control" id="txt_ReTypeEmail" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_Password" class="col-sm-3 control-label">Password:</label>
+                    <div class="col-sm-6">
+                        <input type="password" class="form-control" id="txt_Password" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_ReTypePassword" class="col-sm-3 control-label">Re-type Password:</label>
+                    <div class="col-sm-6">
+                        <input type="password" class="form-control" id="txt_ReTypePassword" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="securityQue" class="col-sm-3 control-label">Security Question:</label>
+                    <div class="col-sm-6">
+                        <select id="drp_Question" class="form-control" style="font-weight: 500;">
+                            <option selected>Choose a security question</option>
+                            <option>What is your nick name?</option>
+                            <option>What is your first school name?</option>
+                            <option>What is your favourite car?</option>
+                            <option>What is your favourite team?</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_Answer" class="col-sm-3 control-label">Security Answer:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="txt_Answer">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Contact Information</b></legend>
+                <div class="row form-group">
+                    <label for="txt_Address" class="col-sm-3 control-label">Address:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="txt_Address">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_City" class="col-sm-3 control-label">City:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="txt_City">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="state" class="col-sm-3 control-label">State:</label>
+                    <div class="col-sm-6">
+                        <select id="drp_State" class="form-control" style="font-weight: 500;">
+                            <option selected>Choose a state</option>
+                            <option>Bihar</option>
+                            <option>Gujarat</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Delhi</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_ZipCode" class="col-sm-3 control-label">Zip Code:</label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="txt_ZipCode">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="txt_ZipCode" placeholder="Optional" disabled>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txt_Phone" class="col-sm-3 control-label">Phone:</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="txt_Phone" required>
+                    </div>
+                    <div class="col-sm-2">
+                        <select id="drp_Phone" class="form-control" style="font-weight: 500;">
+                            <option selected>Mobile</option>
+                            <option>TelePhone</option>
+                            <option>Fax</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit" class="button submit" name="btn_submit" value="Submit" onclick="call()">Submit</button>
+            <button type="reset" class="button reset" name="btn_reset" value="Reset">Reset</button>
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="practice.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+</head>
+
+<body>
+    <h2>Information</h2>
+    <form action="view.html">
+        <table>
+            <tr>
+                <th>Name</th>
+                <td><input type="text" name="txt_name" id="txt_name"></td>
+            </tr>
+            <tr>
+                <th>E Mail</th>
+                <td><input type="text" name="txt_mail" id="txt_mail"></td>
+            </tr>
+            <tr>
+                <th>Date Of Birth</th>
+                <td><input type="date" name="txt_dob" id="txt_dob"></td>
+            </tr>
+
+        </table>
+        <button type="submit">View records</button>
+    </form>
+    <input type="button" class="btn" name="submit" value="Add" onclick="addElement();" />
+
+
+</body>
+<script src="view.js"></script>
+
+</html>
