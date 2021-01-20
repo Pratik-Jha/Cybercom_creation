@@ -1,0 +1,4 @@
+-> Today Done the assignment and challenges.
+-> Get deep into localstorage.
+	-> learn about its method such as getItem and setItem. How to use it all is see today.
+-> In the meeting discuss about some topic and also discuss about the test.
