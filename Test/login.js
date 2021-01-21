@@ -14,3 +14,13 @@ function login(){
         alert("Wrong Username and Password.")
     }
 }
+
+function logout(){
+    var data = JSON.parse(localStorage.getItem('user'));
+    var uname;
+    data.forEach(function(obj) {
+        uname=obj.uname;
+      });
+      
+
+}

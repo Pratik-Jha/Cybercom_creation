@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="User.js"></script>
+    <script src="login.js"></script>
+
 </head>
   <body>  
     <div class="container-fluid">
@@ -20,16 +22,10 @@
                
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                    <li class="nav-item active pl-4">
-                       <a class="nav-link" href="#">Dashboard</a>
+                       <a class="nav-link" href="User.html">Dashboard</a>
                    </li>
-                   <li class="nav-item pl-4">
-                       <a class="nav-link" href="#">Users</a>
-                   </li>
-                   <li class="nav-item pl-4">
-                        <a class="nav-link" href="#">Login Session</a>
-                    </li>
                     <li class="nav-item pl-4">
-                        <a class="nav-link" href="#">Logout</a>
+                        <a class="nav-link" href="" onclick="logout()">Logout</a>
                     </li>
                </ul>
             
@@ -70,7 +66,7 @@
                 </div>
             </div>
             <div class="form-group text-center">
-                <button type="button" id="btn_submit" onclick="addUser()" on="fetchUserData()" class="btn btn-warning">Add User</button>    
+                <button type="button" id="btn_submit" onclick="addUser()" onload="fetchUserData()" class="btn btn-warning">Add User</button>    
             </div>   
        </div>
        <div class="jumbotron mt-5 text-center">    
@@ -87,10 +83,10 @@
               </thead>
               <tbody>
                 <tr>
-                  <th id="col1" scope="row">naeem</th>
-                  <td id="col2">naeemmemon60650@gmail.com</td>
-                  <td id="col1">naeem123</td>
-                  <td id="col1">17/12//98</td>
+                  <th id="col1" scope="row">Pratik</th>
+                  <td id="col2">Pratik@gmail.com</td>
+                  <td id="col1">Pratik13</td>
+                  <td id="col1">09/09//98</td>
                   <td id="col1">22</td>
                   <td>
                       <button type="button" onclick="updateUser()" class="btn btn-link"> Update </button>
