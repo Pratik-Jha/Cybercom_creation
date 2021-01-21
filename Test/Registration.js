@@ -1,5 +1,5 @@
 var adminData = []
-
+//this function is used to register the user and store the value 
 function Register() {
     var uname = document.getElementById('username').value;
     var mail = document.getElementById('email').value;
@@ -7,8 +7,7 @@ function Register() {
     var cnfpwd = document.getElementById('confirm_password').value;
     var city = document.getElementById('drp_city').value;
     var state = document.getElementById('drp_State').value;
-
-
+    //variable to store the value of all textbox in one object.
     var Admin = {
         Aname: uname,
         Aemail: mail,
@@ -26,9 +25,10 @@ function Register() {
     adminData.push(Admin);
     console.log(adminData);
     localStorage.setItem("admin", JSON.stringify(adminData));
-    window.location="login.html";
+    window.location = "login.html";
 }
 
+//This function is used to check that admin is created or not
 function check() {
     var arr = localStorage.getItem('admin');
     var items = JSON.parse(arr);
@@ -36,10 +36,10 @@ function check() {
     arr = items;
 
     if (arr === null) {
-        window.location ="Registration.html"
+        window.location = "Registration.html"
     }
-    else{
+    else {
         alert("Admin Already Registerd.")
-        window.location="login.html"
+        window.location = "login.html"
     }
 }
