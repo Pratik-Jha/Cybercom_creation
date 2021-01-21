@@ -1,96 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Table</title>
     <style>
-        .login-card-purple {
-            background: linear-gradient(145deg, #673AB7, #9C27B0);
+        table {
+            margin: 0 auto;
+            width: 80%;
+            border-collapse: collapse;
+            text-align: left;
         }
-
-        .login-card-yellow {
-            background: linear-gradient(145deg, #FFC107, #FFEB3B);
+    
+        th, td {
+            padding: 5px;
+            border: 1px solid black;
         }
-
-        .login-card-light {
-            background: linear-gradient(145deg, #eee, #fff);
-        }
-
-        .login-dark {
-            background: linear-gradient(145deg, #575b5d, #252b2d);
-        }
-
-        .login-blue {
-            background: linear-gradient(145deg, #2196F3, #3F51B5);
-        }
-
-        .login-purple-pink {
-            background: linear-gradient(145deg, #3F51B5, #E91E63);
-        }
-
-        body {
-            font-size: 13px;
-            background: linear-gradient(145deg, #575b5d, #252b2d);
+    
+        .highlight-row {
+            background-color: aquamarine;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-8 offset-2">
-                <div class="login-card-light p-3 shadow-lg rounded">
-                    <div class="pt-5">
-                        <center>
-                            <h1 class="text-danger">Sign In</h1>
-                        </center>
-                    </div>
+    <div class='container'></div>
 
-                    <form class="mt-5" action="login" method="POST">
-                                                <div class="form-group">
-                            <input type="text" class="form-control" name="mail_id" id="mail_id" placeholder="Email Id"
-                                required>
-                        </div>
+<script>
+    window.addEventListener('DOMContentLoaded', function () {
 
-                        <div class="form-group">
-                            <input type="password" class="form-control" name="pwd" id="pwd" placeholder="Password"
-                                required>
-                        </div>
+        const grades = [
+            ['Grade 1', 6],
+            ['Grade 2', 7],
+            ['Grade 3', 8],
+            ['Grade 4', 9],
+            ['Grade 5', 10],
+            ['Grade 6', 11]
+        ];
 
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="rememberCheckBox">
-                            <label class="form-check-label text-dark" for="rememberCheckBox">Remember me?</label>
-                        </div>
+        function getAge ( year, month, day ) {
 
-                        <div class="mt-5">
-                            <button class="btn btn-sm btn-danger col">
-                                Login
-                            </button>
-                        </div>
+            return new Date().getFullYear() - new Date(year, month, day).getFullYear()
+        }
 
-                        <div class="text-center mt-2">
-                            <a href="#">Forgot Password?</a>
-                        </div>
+        function gradeTable ( grades, age ) {
 
-                        <div class="mt-5">
-                            <p class="text-center">
-                                Don't have an account?
-                                <a href="#">Click here to register</a>
-                            </p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <center>
-        <h2 style="color:red;" ">{{ session('msg')}}</h2><center>
+            const tableHead = `
+                <table>
+                    <thead>
+                        <tr class='highlight-row'>
+                            <th>Grade</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            const tableFoot = `
+                    </tbody>
+                </table>
+            `;
+
+            const count = grades.length;
+            let tableBody = '';
+
+            for ( let i = 0; i < count; i += 1 ) {
+
+                let currGrade = grades[i][0];
+                let currAge = grades[i][1];
+                let highlight = (currAge === age) ? " class='highlight-row'" : '';
+
+                tableBody += `
+                    <tr${highlight}>
+                        <td>${currGrade}</td>
+                        <td>${currAge}</td>
+                    </tr>
+                `
+            }
+
+            return tableHead + tableBody + tableFoot;
+        }
+
+        document.querySelector('.container')
+            .insertAdjacentHTML(
+                'afterbegin',
+                gradeTable( grades, getAge( 2011, 4, 28 ) )
+            )
+    })
+</script>
 </body>
 </html>
