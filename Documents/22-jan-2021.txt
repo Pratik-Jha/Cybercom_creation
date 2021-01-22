@@ -1,0 +1,4 @@
+-> Learn basic's of Php.
+-> Also see the the logical ,arthemetic operators.
+-> Also continue my learning in the javascript by opting online course.
+-> Ans in the meeting discuss that how to start with the baic PHP.
