@@ -1,0 +1,16 @@
+-> Today i learn about some of the concept of PHP i.e. array and its some function.
+-> In the array i learn the types of array i.e associative array, Multi-dimensional Arrays.
+-> Also see the concept of looping statement, conditional statement,etc.
+-> By moviug forward i learn about the use of include and require.
+-> Also see some of the methods of string  and arrays.
+
+
+/***************************Angular**************************/
+
+-> Apart from PHP today i also start one of the new topic that is Angular.
+-> In that i learn that what is Angular , Architecture of angular, how to setup enviroment for angular.
+-> Also see some of the git command through which i can handle the angular project and application.
+
+/*********************/
+
+-> And lastly i completed my assignment task and practises.
