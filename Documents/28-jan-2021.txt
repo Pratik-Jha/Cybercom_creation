@@ -1,0 +1,5 @@
+-> Today i learn some more concept in PHP i.e.
+-> Learn that how i can access the current date and time.
+-> How to get the user IP Address.
+-> The use of rand() method it will use for generate random number.
+-> And also see the use of get and post and also see the differnce between it.
