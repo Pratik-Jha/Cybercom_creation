@@ -1,0 +1,39 @@
+htmlentities
+
+-> Session: session is used to store and pass information from one page to another temporarily (until user close the website).In this we 	    also see some methods i.e.
+	=> session_start() : This function is used to start the session.
+	=> $_SESSION : This is an associative array that contains all session variables.
+	=> session_destroy() :This function is used to destroy all session variables completely.
+
+-> Cookie: This is a small piece of information which is stored at client browser.In this we also see some methods i.e.
+	=> setcookie() : This function is used to set cookie with HTTP response.
+	=> $_COOKIE : This is the superglobal variable which  is used to get cookie.
+
+/********************** File handling************************/
+
+-> fopen() : This function is used to open a file.
+-> fclose() : This function is used to close an open file.
+-> implode() : This function returns a string from elements of an array. It takes an array of strings and joins them together into one string using a delimiter of our choice.
+-> explode() : This function is used to Split a string by a specified string into pieces i.e. it breaks a string into an array.
+-> fread() : After file is opened using fopen() the contents of data are read using fread(). It takes two arguments. One is file pointer and another is file size in bytes.
+-> fwrite() : New file can be created or text can be appended to an existing file using fwrite() function. Arguments for fwrite() function are file pointer and text that is to written to 	              file.
+-> fclose() :This function is used to closed the file.
+-> readdir() : This function is used to return the name of the next entry in a directory.
+-> ulink() : This method is used to delete the file.
+-> fileexists() : This function is used to check that the file is present or not or the particular location.
+-> rename() : This method is used to rename the file. It consist two argument one is "old_file_name" and 2nd is "new_file_name".
+
+
+/***********************Angular**********************/
+
+-> Today in angular i learn more concept's i.e.
+	=> Property.
+	=> Modules.
+	=> Class.
+	=> Interface.
+	=> Arrow function.
+	=> Datatypes.
+	=> Access Modifier.
+	=> Objects.
+-> All the above topic I cleared in angular and also do practise on it.
+-> Also learn about the TypeScript.
