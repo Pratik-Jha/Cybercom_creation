@@ -1,0 +1,8 @@
+-> Do a practice in PHP.
+-> Learn that how to connect a database.
+-> In database today learn that how to fetch the query.
+-> In SQL i learn about orderBy.
+
+
+/*************************** Angular *******************************/
+-> As well as i give the angular test.
