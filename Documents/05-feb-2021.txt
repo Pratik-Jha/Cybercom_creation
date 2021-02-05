@@ -1,0 +1,5 @@
+-> Today I learn some basic concept of PHP Database.
+-> I also learn that how to encrypt the password using md5.
+-> Also learn how to fetch the data.
+-> Complete the form assignment which is given by the sir.
+-> Apart from them i also to some more task on form.
