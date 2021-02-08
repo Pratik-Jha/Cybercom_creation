@@ -1,0 +1,3 @@
+-> Do more practise on the form.
+-> Try to implement the pagging in the table.
+-> Apart from them revise the previous video.

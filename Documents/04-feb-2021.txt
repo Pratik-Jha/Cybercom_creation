@@ -1,0 +1,9 @@
+-> In php completed the form design part and also complete the one database handling part with one form.
+-> Also watch angular video and learn some concept i.e.
+	-> Blocks.
+	-> Component.
+	-> templates.
+	-> Service.
+	-> Directives.
+-> Also learn that how i can create the service and component from command line.
+-> And do practise on the above topic's.

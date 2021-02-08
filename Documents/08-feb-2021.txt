@@ -1,0 +1,9 @@
+-> Do angular video in that i learn that how to implement the bootstrap style in the angular. While implementing that i faces some error but by own i resolve those issue's.
+->Know some of the concept i.e.
+	-> Property binding.
+	-> Attribute binding.
+	-> Class binding.
+	-> style binding.
+	-> event binding. 
+-> Also learn that how to input the data in the textbox using angular property. i.e. ngModel.
+-> And do practise on the above topic.
